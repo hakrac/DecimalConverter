@@ -1,1 +1,3 @@
-this is just a short message
+# Decimal Converter
+
+**clone** the project and run *python3 DecimalConverter* 
