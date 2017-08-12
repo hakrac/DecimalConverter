@@ -100,10 +100,12 @@ elif baseint == 11:
 
 else:
 	remainder = int(remainder)
+  
 
 y = int(decimalint / baseint)
 decimalint = y
 result += str(remainder)
+
 
 while int(y) > 0:
 	remainder = decimalint % baseint
@@ -175,7 +177,7 @@ while int(y) > 0:
 	decimalint = y
 	result += str(remainder)
 
-
+  
 #print out the result
 print(decimal +" -> {}".format(result[::-1]))
 
