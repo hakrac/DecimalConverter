@@ -100,10 +100,12 @@ elif baseint == 11:
 
 else:
 	remainder = int(remainder)
+  
 
 y = int(decimalint / baseint)
 decimalint = y
 result += str(remainder)
+
 
 while int(y) > 0:
 	remainder = decimalint % baseint
@@ -170,8 +172,19 @@ while int(y) > 0:
 		remainder = int(remainder)
 
 
+	
 	y = int(decimalint / baseint)
 	decimalint = y
 	result += str(remainder)
 
+  
+#print out the result
 print(decimal +" -> {}".format(result[::-1]))
+
+
+
+start = input("New number(y/n) ")
+if start.lower() == "y":
+	pass
+else:
+	sys.exit()
