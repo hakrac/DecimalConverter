@@ -8,7 +8,7 @@ while True:
 		decimalint = int(decimal)
 	except ValueError:
 		print("Sorry, it has to be a number")
-		sys.exit()
+		continue;
 
 	base = input("Type in the base of the numeral system: ")
 	try:
